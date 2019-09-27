@@ -1,0 +1,428 @@
+html{
+    margin: 0;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Droid Serif";
+
+}
+
+.header {
+    background-color: #601316;
+    height: 120px;
+}
+
+#LogoPnG {
+    padding-top: 25px;
+    padding-left: 60px;
+}
+
+#LogoBannerPnG {
+    position: absolute;
+    right: 15px;
+    padding-top: 10px;
+
+}
+
+.navbar {
+    padding-left: 40px;
+    background-color: black;
+    height: 30px;
+}
+
+ul.item {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.item-list {
+    display: inline-block;
+    padding-top: 7px;
+    width: 5%;
+    text-align: center;
+
+}
+
+.item-list:hover {
+    background-color: gray;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Everything for my Main*/
+main {
+    margin-top: 0;
+}
+
+#date {
+    text-align: right;
+    padding-right: 35px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#MainContent {
+    margin: 0px 60px 0px 60px;
+
+
+}
+
+.hGray {
+    background-color: #DEDEDE;
+}
+
+.hGray h1 {
+
+    color: #4A4A4A;
+    height: 40px;
+}
+
+
+.asideImg {
+    float: right;
+    width: 16%;
+    height: 725px;
+
+
+}
+
+p.p1 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-size: 20px;
+
+
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+
+}
+
+.flex1Img {
+    width: 100%;
+    height: 250px;
+    display: block;
+
+
+}
+
+.ImageWithText {
+    width: 450px;
+    height: 350px;
+    grid-area: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.disc {
+    float: bottom;
+    position: relative;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: -10%
+}
+
+#middle{
+margin-left: 50px;
+width: 90%;
+
+}
+
+.asideImg {
+    float: right;
+    width: 16%;
+    height: 725px;
+
+
+}
+
+.asideImg2 {
+    float: right;
+    width: 16%;
+    height: 645px;
+
+
+}
+
+
+
+/* Everything for my footer (navBar with Links, Logo on the right side, NameParagraph for bottom)*/
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    
+}
+
+.navbar1 {
+    background-color: black;
+    height: 30px;
+    padding-left: 40px;
+}
+
+ul.item1 {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.item-list1 {
+    display: inline-block;
+    padding-top: 7px;
+    width: 5%;
+    text-align: center;
+
+}
+
+.item-list1:hover {
+    background-color: gray;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#LogoPnG1 {
+    float: right;
+    padding-right: 25px;
+    padding-top: 20px;
+    right: 25px;
+
+}
+
+#myName {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+@media (max-width: 480px){
+    html{
+    margin: 0;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Droid Serif";
+
+}
+
+.header {
+    background-color: #601316;
+    height: 120px;
+}
+
+#LogoPnG {
+    padding-top: 25px;
+    padding-left: 60px;
+}
+
+#LogoBannerPnG {
+    position: absolute;
+    right: 15px;
+    padding-top: 10px;
+
+}
+
+.navbar {
+    padding-left: 40px;
+    background-color: black;
+    height: 30px;
+}
+
+ul.item {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.item-list {
+    display: inline-block;
+    padding-top: 7px;
+    width: 5%;
+    text-align: center;
+
+}
+
+.item-list:hover {
+    background-color: gray;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Everything for my Main*/
+main {
+    margin-top: 0;
+}
+
+#date {
+    text-align: right;
+    padding-right: 35px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#MainContent {
+    margin: 0px 60px 0px 60px;
+
+
+}
+
+.hGray {
+    background-color: #DEDEDE;
+}
+
+.hGray h1 {
+
+    color: #4A4A4A;
+    height: 40px;
+}
+
+
+.asideImg {
+    float: right;
+    width: 16%;
+    height: 725px;
+
+
+}
+
+p.p1 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-size: 10px;
+
+
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+
+}
+
+.flex1Img {
+    width: 100%;
+    height: 250px;
+    display: block;
+
+
+}
+
+.ImageWithText {
+    width: 450px;
+    height: 350px;
+    grid-area: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.disc {
+    float: bottom;
+    position: relative;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: -10%
+}
+
+#middle{
+margin-left: 50px;
+width: 90%;
+
+}
+
+.asideImg {
+    float: right;
+    width: 16%;
+    height: 725px;
+
+
+}
+
+.asideImg2 {
+    float: right;
+    width: 16%;
+    height: 645px;
+
+
+}
+
+
+
+/* Everything for my footer (navBar with Links, Logo on the right side, NameParagraph for bottom)*/
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    
+}
+
+.navbar1 {
+    background-color: black;
+    height: 30px;
+    padding-left: 40px;
+}
+
+ul.item1 {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.item-list1 {
+    display: inline-block;
+    padding-top: 7px;
+    width: 5%;
+    text-align: center;
+
+}
+
+.item-list1:hover {
+    background-color: gray;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#LogoPnG1 {
+    float: right;
+    padding-right: 25px;
+    padding-top: 20px;
+    right: 25px;
+
+}
+
+#myName {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    
+}   
+}
